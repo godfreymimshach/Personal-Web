@@ -1,0 +1,48 @@
+<html>
+<body>
+	<div id="title">	
+		<h1>HOW ARE YOU DOING TODAY?</h1>
+		<p1>HERE, DREAMS COME TRUE</p1>. <br>
+		<button onclick="makedreamcometrue()">MAKE DREAMS COME TRUE</button>
+	</div>
+</body>
+</html>
+
+<style>
+
+body {
+
+	background-image: url("https://iso.500px.com/wp-content/uploads/2014/07/big-one.jpg");
+	background-size: cover
+}
+
+h1 {
+	color:blue;
+}
+
+p1 {
+	color:green;
+}
+
+button:hover {
+	background-color: red;
+	cursor: pointer;
+	font-size: 12px
+}
+
+#title {
+	border: solid black 2px;
+	width: 100%;
+	text-align: center;
+}
+
+</style>
+
+<script>
+
+function makedreamcometrue() {
+	document.body.style.background = 'url("https://media.giphy.com/media/HhTXt43pk1I1W/200.gif")';
+	document.getElementById("title").style.visibility = "hidden";
+}
+
+</script>
