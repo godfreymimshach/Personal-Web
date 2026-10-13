@@ -1,0 +1,19 @@
+h1 {
+	color:blue;
+}
+
+p1 {
+	color:green;
+}
+
+button:hover {
+	background-color: blue;
+	cursor: pointer;
+	font-size: 12px
+}
+
+#title {
+	border: solid black 2px;
+	width: 100%;
+	text-align: center;
+}
