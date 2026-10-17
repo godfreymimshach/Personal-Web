@@ -13,6 +13,7 @@ button:hover {
 }
 
 #title {
-	text-align: center;
-	padding-top: 200px;
+	text-align:center;
+	padding-top:200px;
+	background-image:url('../images/patrick-fore-11tSxJLa5UQ-unsplash.jpg')
 }
