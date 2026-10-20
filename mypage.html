@@ -1,12 +1,13 @@
 <html>
 <head>
 	<link rel="stylesheet" href="./titlesection/titlesection.css">
+	<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue">
 </head>
 <body>
 	<div class= "main-section"id="title">	
 		<h1>HOW ARE YOU DOING TODAY?</h1>
 		<p1>HERE, DREAMS COME TRUE</p1>. <br>
-		<button onclick="makedreamcometrue()">MAKE DREAMS COME TRUE</button>
+		<button class="title-section-button"onclick="makedreamcometrue()">MAKE DREAMS COME TRUE</button>
 	</div>
 </body>
 </html>
@@ -14,7 +15,8 @@
 <style>
 	
 	{
-		box-sizing: border-box
+		box-sizing: border-box;
+		 font-family: 'Bebas+Neue';
 	}
 
 	html, body{
@@ -34,7 +36,7 @@
 
 function makedreamcometrue() {
 	document.body.style.background = 'url("https://media.giphy.com/media/HhTXt43pk1I1W/200.gif")';
-	document.getElementById("title").style.visibility = "hidden";
+		document.getElementById("title").style.visibility = "hidden"
 }
 
 </script>

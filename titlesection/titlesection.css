@@ -1,19 +1,28 @@
-h1 {
-	color:blue;
+:root {
+	--titleSectionPrimaryColor: brown;
 }
 
-p1 {
-	color:green;
+
+#title {
+	color: var(--titleSectionPrimaryColor);
+	text-align:center;
+	padding-top:200px;
+	background-image:url('../images/patrick-fore-11tSxJLa5UQ-unsplash.jpg') 
 }
 
-button:hover {
+.title-section-button {
+	color: var(--titleSectionPrimaryColor);
+	border: var(--titleSectionPrimaryColor) 1px;
+	border-radius: 5px
+	padding: 15px 20px;
+	background-color: transparent
+}
+
+
+.title-section-button:hover {
 	background-color: blue;
 	cursor: pointer;
 	font-size: 12px
 }
 
-#title {
-	text-align:center;
-	padding-top:200px;
-	background-image:url('../images/patrick-fore-11tSxJLa5UQ-unsplash.jpg')
-}
+
