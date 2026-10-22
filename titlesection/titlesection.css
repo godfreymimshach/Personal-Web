@@ -11,6 +11,10 @@
 	background-image:url('../images/patrick-fore-11tSxJLa5UQ-unsplash.jpg') 
 }
 
+
+.title-section-header{
+	margin-bottom: -5px;
+}
 .title-section-button {
 	color: var(--titleSectionPrimaryColor);
 	border: var(--titleSectionPrimaryColor) 1px;
